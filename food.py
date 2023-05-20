@@ -9,6 +9,6 @@ class Food(Turtle):
         self.color("red")
         self.speed("fastest")
         self.refresh()
-
+    #Generate food randomly on screen
     def refresh(self):
         self.goto(random.randint(-280, 280), random.randint(-280, 280))
