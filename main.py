@@ -28,7 +28,7 @@ while game is True:
         score.inre()
         sn.extent()
     #Detect collision with wall
-    if sn.seg[0].xcor()>280 or sn.seg[0].xcor()<-280 or sn.seg[0].ycor()>280 or sn.seg[0].ycor()<-280:
+    if sn.seg[0].xcor()>280 or sn.seg[0].xcor()<-300 or sn.seg[0].ycor()>300 or sn.seg[0].ycor()<-280:
         score.over()
         game=False
     #Detect collision with body
